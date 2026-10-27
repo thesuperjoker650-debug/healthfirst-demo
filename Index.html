@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>HealthFirst Diagnostics | NABL Lab & Home Blood Tests</title>
+<meta name="description" content="NABL-certified diagnostic lab in India for CBC, thyroid, lipid, HbA1c, Vitamin D and full body checkups. Free home sample collection and reports in 24 hours.">
+<meta name="theme-color" content="#1560d4">
+<meta property="og:type" content="website">
+<meta property="og:title" content="HealthFirst Diagnostics | NABL Lab & Home Blood Tests">
+<meta property="og:description" content="Accurate blood tests, free home sample collection and reports within 24 hours.">
+<meta property="og:locale" content="en_IN">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"MedicalBusiness","name":"HealthFirst Diagnostics","description":"NABL-certified diagnostic lab with free home sample collection.","telephone":"+919876543210","address":{"@type":"PostalAddress","streetAddress":"12, MG Road, Near City Hospital","postalCode":"400001","addressCountry":"IN"},"openingHours":["Mo-Sa 06:30-20:00","Su 07:00-14:00"]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f4f8ff;--surface:#fff;--ink:#0f2744;--muted:#4a5f7a;--blue:#1560d4;--blue-d:#0d47a1;--tint:#e3eeff;--line:#d5e2f5;--green:#168a4a;--on-blue:#fff;--hero:linear-gradient(160deg,#e3eeff,#f4f8ff 70%);
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0a1626;--surface:#112238;--ink:#eaf2ff;--muted:#a3b7d1;--blue:#5b9cff;--blue-d:#8bb8ff;--tint:#16304f;--line:#24405f;--green:#4fd18b;--on-blue:#06172e;--hero:linear-gradient(160deg,#0f2440,#0a1626 70%);color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0a1626;--surface:#112238;--ink:#eaf2ff;--muted:#a3b7d1;--blue:#5b9cff;--blue-d:#8bb8ff;--tint:#16304f;--line:#24405f;--green:#4fd18b;--on-blue:#06172e;--hero:linear-gradient(160deg,#0f2440,#0a1626 70%);color-scheme:dark}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 120px)}
+body{margin:0;overflow-x:clip;background:var(--bg);color:var(--ink);font:18px/1.6 Figtree,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-text-size-adjust:100%}
+h1,h2,h3{line-height:1.15;margin:0;letter-spacing:-.02em}
+h1{font-size:clamp(2.2rem,7vw,3.8rem);font-weight:800}
+h2{font-size:clamp(1.8rem,5vw,2.5rem);font-weight:800;margin-bottom:.5rem}
+h3{font-size:1.2rem;font-weight:700}
+p{margin:0}
+a{color:inherit}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+section{padding:64px 0}
+.sub{color:var(--muted);max-width:60ch;margin-bottom:32px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:54px;padding:0 28px;border-radius:999px;font-weight:700;font-size:1.05rem;text-decoration:none;border:2px solid var(--blue);transition:transform .15s,background .15s}
+.btn:active{transform:scale(.98)}
+.btn.primary{background:var(--blue);color:var(--on-blue)}
+.btn.primary:hover{background:var(--blue-d)}
+.btn.ghost{background:var(--surface);color:var(--blue)}
+.btn.ghost:hover{background:var(--tint)}
+a:focus-visible,summary:focus-visible{outline:3px solid var(--blue);outline-offset:3px;border-radius:12px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:24px;padding:24px;transition:transform .22s ease,box-shadow .22s ease,border-color .22s ease}
+
+/* top bar */
+
+.logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:1.15rem;text-decoration:none}
+.logo i{width:38px;height:38px;border-radius:12px;background:var(--blue);color:var(--on-blue);display:grid;place-items:center;font-style:normal;font-size:1.4rem;line-height:1}
+
+
+/* hero */
+.hero{background:var(--hero);padding:16px 0 48px}
+.hero-grid>*{min-width:0}
+.hero-grid{display:grid;gap:36px;align-items:center;padding-top:24px}
+.hero p.lead{font-size:1.2rem;color:var(--muted);margin:18px 0 28px;max-width:46ch}
+.cta{display:flex;flex-wrap:wrap;gap:12px}
+.cta .btn{flex:1 1 200px}
+.trust{display:flex;flex-wrap:wrap;gap:8px 20px;margin-top:22px;color:var(--muted);font-size:.98rem;font-weight:600}
+.trust span::before{content:"✓ ";color:var(--green)}
+.report{max-width:420px;width:100%;justify-self:center;transform:rotate(1.5deg);box-shadow:0 18px 40px rgba(21,96,212,.18)}
+.report .top{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;font-weight:700}
+.report .tag{background:var(--tint);color:var(--blue);border-radius:999px;padding:2px 12px;font-size:.85rem}
+.row{display:flex;justify-content:space-between;align-items:center;padding:12px 0;border-top:1px solid var(--line);gap:12px}
+.row small{display:block;color:var(--muted);font-size:.85rem}
+.row b{font-size:1.15rem}
+.ok{color:var(--green)}
+.report .foot{margin-top:12px;color:var(--muted);font-size:.9rem}
+
+/* tests */
+.grid{display:grid;gap:16px}
+.test{display:flex;flex-direction:column;gap:6px}
+.test p{color:var(--muted);font-size:.98rem}
+.price{font-size:1.9rem;font-weight:800;color:var(--blue);margin-top:8px}
+.price s{font-size:1rem;color:var(--muted);font-weight:500;margin-left:6px}
+.test .btn{min-height:46px;margin-top:10px;font-size:1rem}
+.test.feat{background:var(--blue);border-color:var(--blue);color:var(--on-blue)}
+.test.feat p,.test.feat .price,.test.feat .price s{color:var(--on-blue)}
+.test.feat .btn{background:var(--surface);color:var(--blue);border-color:var(--surface)}
+.note{color:var(--muted);font-size:.95rem;margin-top:18px}
+
+/* steps */
+.band{background:var(--tint)}
+.steps{counter-reset:s;display:grid;gap:16px}
+.step{position:relative;padding-left:84px}
+.step::before{counter-increment:s;content:counter(s);position:absolute;left:24px;top:22px;width:44px;height:44px;border-radius:50%;background:var(--blue);color:var(--on-blue);display:grid;place-items:center;font-weight:800;font-size:1.3rem}
+.step p{color:var(--muted);margin-top:4px}
+
+/* why */
+.why .ic{width:54px;height:54px;border-radius:16px;background:var(--tint);display:grid;place-items:center;font-size:1.7rem;margin-bottom:14px}
+.why p{color:var(--muted);margin-top:6px}
+
+/* testimonials */
+blockquote{margin:0;display:flex;flex-direction:column;gap:14px;height:100%}
+blockquote p{font-size:1.05rem}
+.stars{color:#f5a623;letter-spacing:2px}
+blockquote footer{margin-top:auto;font-weight:700}
+blockquote footer span{display:block;color:var(--muted);font-weight:500;font-size:.92rem}
+
+/* faq */
+details{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:0 22px;margin-bottom:12px}
+summary{cursor:pointer;list-style:none;font-weight:700;padding:18px 28px 18px 0;position:relative;min-height:56px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";position:absolute;right:0;top:50%;transform:translateY(-50%);font-size:1.6rem;color:var(--blue);transition:transform .2s}
+details[open] summary::after{transform:translateY(-50%) rotate(45deg)}
+details p{color:var(--muted);padding-bottom:18px}
+
+/* contact */
+.contact-grid{display:grid;gap:16px}
+.info div{padding:14px 0;border-top:1px solid var(--line)}
+.info div:first-child{border-top:0;padding-top:0}
+.info small{display:block;color:var(--muted);font-weight:600}
+.info a{color:var(--blue);font-weight:700;text-decoration:none}
+.map{min-height:280px;border-radius:24px;border:2px dashed var(--blue);background:repeating-linear-gradient(45deg,var(--tint),var(--tint) 14px,var(--surface) 14px,var(--surface) 28px);display:grid;place-items:center;text-align:center;padding:20px;color:var(--blue);font-weight:700}
+.map span{display:block;font-size:2.4rem}
+.map small{display:block;color:var(--muted);font-weight:500}
+
+/* footer */
+footer.site{background:var(--ink);color:#d9e6fa;padding:40px 0 28px;font-size:.98rem}
+:root[data-theme="dark"] footer.site{background:#06101d}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) footer.site{background:#06101d}}
+footer.site .cols{display:grid;gap:24px}
+footer.site a{text-decoration:none;display:block;padding:4px 0}
+footer.site h3{color:#fff;font-size:1.05rem;margin-bottom:6px}
+footer.site .legal{margin-top:28px;padding-top:18px;border-top:1px solid rgba(255,255,255,.18);font-size:.88rem;opacity:.8}
+
+@media (min-width:720px){
+.hero-grid{grid-template-columns:1.15fr .85fr}
+.g3{grid-template-columns:repeat(3,1fr)}
+.g2{grid-template-columns:repeat(2,1fr)}
+.contact-grid{grid-template-columns:1fr 1fr}
+footer.site .cols{grid-template-columns:2fr 1fr 1fr}
+.cta .btn{flex:0 0 auto}
+}
+/* sticky nav */
+.nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:var(--surface);border-bottom:1px solid var(--line)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--surface);z-index:60}
+.nav .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:4px 8px;padding-top:10px;padding-bottom:6px}
+.nav .logo{font-size:1.02rem}
+.nav .btn{min-height:42px;padding:0 22px;font-size:1rem}
+.links{order:3;width:100%;display:flex;gap:6px;overflow-x:auto;white-space:nowrap;scrollbar-width:none;padding:2px 0 6px}
+.links::-webkit-scrollbar{display:none}
+.links a{padding:8px 14px;border-radius:999px;text-decoration:none;font-weight:600;font-size:.95rem;color:var(--muted);transition:background .15s,color .15s}
+.links a:hover{background:var(--tint);color:var(--blue)}
+
+/* stats strip */
+.stats{padding:28px 0;background:var(--surface);border-bottom:1px solid var(--line)}
+.stats-title{text-align:center;font-weight:800;font-size:1.25rem;margin-bottom:18px}
+.stat-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px 12px;text-align:center}
+.stat-grid b{display:block;font-size:1.7rem;line-height:1.2;font-weight:800;color:var(--blue)}
+.stat-grid span{color:var(--muted);font-size:.95rem}
+
+/* floating WhatsApp */
+.fab{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:55;width:60px;height:60px;border-radius:50%;background:#25d366;display:grid;place-items:center;box-shadow:0 8px 22px rgba(0,0,0,.28);transition:transform .2s}
+.fab:hover{transform:scale(1.08)}
+footer.site{padding-bottom:88px}
+
+/* hover animations */
+@media (hover:hover){.card:not(.report):hover{transform:translateY(-5px);box-shadow:0 14px 30px rgba(21,96,212,.16);border-color:var(--blue)}.btn.primary:hover{transform:translateY(-1px)}}
+
+@media (min-width:720px){
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 84px)}
+.nav .wrap{flex-wrap:nowrap;padding-top:12px;padding-bottom:12px;gap:16px}
+.nav .logo{font-size:1.15rem}
+.links{order:0;width:auto;overflow:visible;padding:0;margin-left:auto}
+.stat-grid{grid-template-columns:repeat(4,1fr)}
+}
+
+/* small phones (360px) */
+@media (max-width:400px){
+body{font-size:17px}
+.wrap{padding:0 16px}
+section{padding:48px 0}
+h1{font-size:2rem}
+.card{padding:20px}
+.nav .logo{font-size:.95rem;gap:8px}
+.nav .logo i{width:34px;height:34px}
+.nav .btn{padding:0 18px}
+.step{padding-left:68px}
+.step::before{left:16px;top:20px;width:38px;height:38px;font-size:1.1rem}
+.price{font-size:1.7rem}
+.stats-title{font-size:1.1rem}
+.stat-grid b{font-size:1.5rem}
+.fab{width:56px;height:56px;right:14px}
+}
+
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}.card:not(.report):hover,.fab:hover{transform:none!important}}
+</style>
+</head>
+<body>
+
+<nav class="nav" aria-label="Main">
+  <div class="wrap">
+    <a class="logo" href="#top"><i>+</i> HealthFirst Diagnostics</a>
+    <a class="btn primary" href="https://wa.me/919876543210?text=Hi%20HealthFirst%20Diagnostics%2C%20I%E2%80%99d%20like%20to%20book%20a%20test." target="_blank" rel="noopener">Book</a>
+    <div class="links">
+      <a href="#tests">Tests</a><a href="#home">Home collection</a><a href="#why">Why us</a><a href="#reviews">Reviews</a><a href="#faq">FAQ</a><a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="hero-grid" id="top">
+      <div>
+        <h1>Accurate tests. Reports in 24 hours. Samples collected at your door.</h1>
+        <p class="lead">Trusted by families across the city for reliable blood tests at honest prices. Book online in two minutes. No queues, no waiting rooms.</p>
+        <div class="cta">
+          <a class="btn primary" href="https://wa.me/919876543210?text=Hi%20HealthFirst%20Diagnostics%2C%20I%E2%80%99d%20like%20to%20book%20a%20test." target="_blank" rel="noopener">Book a Test</a>
+          <a class="btn ghost" href="https://wa.me/919876543210?text=Hi%20HealthFirst%20Diagnostics%2C%20I%20have%20a%20question." target="_blank" rel="noopener">💬 WhatsApp Us</a>
+        </div>
+        <div class="trust"><span>NABL-certified lab</span><span>Free home collection</span><span>Reports on WhatsApp</span></div>
+      </div>
+      <div class="card report" aria-hidden="true">
+        <div class="top">Sample report <span class="tag">Ready in 24h</span></div>
+        <div class="row"><div>Haemoglobin<small>12–16 g/dL</small></div><b class="ok">13.8</b></div>
+        <div class="row"><div>HbA1c<small>Below 5.7 %</small></div><b class="ok">5.4</b></div>
+        <div class="row"><div>Vitamin D<small>30–100 ng/mL</small></div><b class="ok">42</b></div>
+        <div class="foot">Every value is checked by a pathologist before release.</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="stats" aria-label="Our numbers">
+  <div class="wrap">
+    <p class="stats-title">Trusted by 5,000+ patients across the city</p>
+    <div class="stat-grid">
+      <div><b>NABL</b><span>Certified lab</span></div>
+      <div><b>24 hrs</b><span>Report turnaround</span></div>
+      <div><b>80+</b><span>Tests available</span></div>
+      <div><b>4.8★</b><span>Average rating</span></div>
+    </div>
+  </div>
+</section>
+
+<main>
+<section id="tests">
+  <div class="wrap">
+    <h2>Popular tests</h2>
+    <p class="sub">Clear prices. Home collection is free on every booking.</p>
+    <div class="grid g3">
+      <article class="card test"><h3>CBC (Complete Blood Count)</h3><p>Checks anaemia, infection and overall blood health.</p><div class="price">₹299</div><a class="btn ghost" href="https://wa.me/919876543210?text=I%E2%80%99d%20like%20to%20book%20a%20CBC%20test." target="_blank" rel="noopener">Book on WhatsApp</a></article>
+      <article class="card test"><h3>Thyroid Profile (T3, T4, TSH)</h3><p>Finds an underactive or overactive thyroid.</p><div class="price">₹449</div><a class="btn ghost" href="https://wa.me/919876543210?text=I%E2%80%99d%20like%20to%20book%20a%20Thyroid%20Profile." target="_blank" rel="noopener">Book on WhatsApp</a></article>
+      <article class="card test"><h3>Lipid Profile</h3><p>Cholesterol and triglycerides to check heart risk.</p><div class="price">₹399</div><a class="btn ghost" href="https://wa.me/919876543210?text=I%E2%80%99d%20like%20to%20book%20a%20Lipid%20Profile." target="_blank" rel="noopener">Book on WhatsApp</a></article>
+      <article class="card test"><h3>HbA1c</h3><p>Your 3-month average blood sugar. Ideal for diabetes care.</p><div class="price">₹350</div><a class="btn ghost" href="https://wa.me/919876543210?text=I%E2%80%99d%20like%20to%20book%20an%20HbA1c%20test." target="_blank" rel="noopener">Book on WhatsApp</a></article>
+      <article class="card test"><h3>Vitamin D (25-OH)</h3><p>Detects the deficiency behind tiredness and bone pain.</p><div class="price">₹799</div><a class="btn ghost" href="https://wa.me/919876543210?text=I%E2%80%99d%20like%20to%20book%20a%20Vitamin%20D%20test." target="_blank" rel="noopener">Book on WhatsApp</a></article>
+      <article class="card test feat"><h3>Full Body Checkup</h3><p>80+ parameters: sugar, liver, kidney, thyroid, lipids, vitamins and more.</p><div class="price">₹1,999<s>₹3,200</s></div><a class="btn ghost" href="https://wa.me/919876543210?text=I%E2%80%99d%20like%20to%20book%20the%20Full%20Body%20Checkup." target="_blank" rel="noopener">Book on WhatsApp</a></article>
+    </div>
+    <p class="note">Prices shown are sample rates. Please confirm current prices when you book.</p>
+  </div>
+</section>
+
+<section class="band" id="home">
+  <div class="wrap">
+    <h2>Home sample collection in 3 steps</h2>
+    <p class="sub">Get tested without leaving your house.</p>
+    <div class="steps g3">
+      <div class="card step"><h3>Book</h3><p>Choose your test on WhatsApp or by phone and pick a time slot.</p></div>
+      <div class="card step"><h3>We visit</h3><p>A trained phlebotomist arrives on time and collects your sample safely.</p></div>
+      <div class="card step"><h3>Get your report</h3><p>Your report reaches you on WhatsApp and email within 24 hours.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="why" id="why">
+  <div class="wrap">
+    <h2>Why choose HealthFirst</h2>
+    <p class="sub">Medical decisions depend on correct numbers. We take that seriously.</p>
+    <div class="grid g3">
+      <div class="card"><div class="ic">🏅</div><h3>NABL-certified</h3><p>Our lab follows national quality standards, with regular audits and calibrated machines.</p></div>
+      <div class="card"><div class="ic">⏱️</div><h3>Reports in 24 hours</h3><p>Most routine tests are ready the next day, so you can see your doctor sooner.</p></div>
+      <div class="card"><div class="ic">💉</div><h3>Trained phlebotomists</h3><p>Gentle, experienced staff who use single-use kits for every sample.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="reviews">
+  <div class="wrap">
+    <h2>What our patients say</h2>
+    <p class="sub">Sample testimonials. Replace with real patient reviews.</p>
+    <div class="grid g3">
+      <div class="card"><blockquote><div class="stars" aria-label="5 out of 5 stars">★★★★★</div><p>The phlebotomist reached at the exact time and it was almost painless. My father’s reports came the next morning.</p><footer>Rohit Sharma<span>Full Body Checkup</span></footer></blockquote></div>
+      <div class="card"><blockquote><div class="stars" aria-label="5 out of 5 stars">★★★★★</div><p>I get my thyroid and Vitamin D tests done here every quarter. Prices are fair and reports are easy to read.</p><footer>Priya Nair<span>Thyroid and Vitamin D</span></footer></blockquote></div>
+      <div class="card"><blockquote><div class="stars" aria-label="5 out of 5 stars">★★★★★</div><p>Booking on WhatsApp took two minutes. As a senior citizen, home collection is a big relief for me.</p><footer>Mohammed Iqbal<span>HbA1c and Lipid Profile</span></footer></blockquote></div>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap" style="max-width:760px">
+    <h2>Frequently asked questions</h2>
+    <p class="sub">Quick answers before you book.</p>
+    <details><summary>Do I need to fast before my test?</summary><p>Lipid profile and glucose tests usually need 8–10 hours of fasting. CBC, thyroid, HbA1c and Vitamin D do not. We will tell you what to do when you book.</p></details>
+    <details><summary>Is home collection really free?</summary><p>Yes. Home collection is free in our service areas. Message us your pincode to confirm.</p></details>
+    <details><summary>How will I receive my report?</summary><p>You will get a PDF on WhatsApp and email, usually within 24 hours. Printed copies are available at our centre.</p></details>
+    <details><summary>Can I get tested without a doctor’s prescription?</summary><p>Yes. Most health checkups and routine tests can be booked without a prescription. Please show your report to a doctor for advice.</p></details>
+    <details><summary>How do I pay?</summary><p>You can pay by UPI, card or cash when the sample is collected, or online while booking.</p></details>
+  </div>
+</section>
+
+<section class="band" id="contact">
+  <div class="wrap">
+    <h2>Visit or call us</h2>
+    <p class="sub">We are here to help you every day of the week.</p>
+    <div class="contact-grid">
+      <div class="card info">
+        <div><small>Phone</small><a href="tel:+919876543210">+91 98765 43210</a></div>
+        <div><small>WhatsApp</small><a href="https://wa.me/919876543210" target="_blank" rel="noopener">Chat with us</a></div>
+        <div><small>Address</small>12, MG Road, Near City Hospital, Your City – 400001</div>
+        <div><small>Working hours</small>Mon–Sat: 6:30 AM – 8:00 PM<br>Sunday: 7:00 AM – 2:00 PM</div>
+      </div>
+      <div class="map" role="img" aria-label="Map placeholder"><div><span>📍</span>Map placeholder<small>Embed your Google Maps location here</small></div></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="cols">
+      <div><h3>HealthFirst Diagnostics</h3><p>Accurate, affordable diagnostic testing with free home sample collection.</p></div>
+      <div><h3>Quick links</h3><a href="#tests">Popular tests</a><a href="#home">Home collection</a><a href="#faq">FAQ</a><a href="#contact">Contact</a></div>
+      <div><h3>Get in touch</h3><a href="tel:+919876543210">+91 98765 43210</a><a href="https://wa.me/919876543210" target="_blank" rel="noopener">WhatsApp</a></div>
+    </div>
+    <div class="legal">© 2026 HealthFirst Diagnostics. All rights reserved. Test results are for information and do not replace a doctor’s advice.</div>
+  </div>
+</footer>
+<a class="fab" href="https://wa.me/919876543210?text=Hi%20HealthFirst%20Diagnostics%2C%20I%20have%20a%20question." target="_blank" rel="noopener" aria-label="Chat with us on WhatsApp">
+  <svg viewBox="0 0 24 24" width="32" height="32" fill="#fff" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.05-1.32A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.15l-.3-.18-3 .78.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.25-.12-1.45-.72-1.68-.8-.22-.08-.39-.12-.55.12-.16.25-.63.8-.77.96-.14.17-.28.19-.53.06a6.7 6.7 0 0 1-3.3-2.9c-.25-.43.25-.4.72-1.33.08-.16.04-.3-.02-.42-.06-.12-.55-1.33-.76-1.82-.2-.48-.4-.41-.55-.42h-.47c-.16 0-.43.06-.65.3-.22.25-.86.84-.86 2.05s.88 2.38 1 2.55c.12.16 1.73 2.65 4.2 3.72 1.56.67 2.17.73 2.95.62.48-.07 1.45-.6 1.66-1.17.2-.57.2-1.06.14-1.17-.06-.1-.22-.16-.47-.28z"/></svg>
+</a>
+</body>
+</html>
